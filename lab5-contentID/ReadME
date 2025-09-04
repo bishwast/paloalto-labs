@@ -1,0 +1,25 @@
+Title: Palo Alto Firewall Lab – Security Profile Testing
+
+Overview:
+This lab focused on learning how to configure and test Palo Alto Security Profiles in a virtual environment using Virtual Wire mode. The main tasks included:
+
+Setting up a Vulnerability Protection Profile
+
+Configuring and testing a File Blocking Profile
+
+Creating a "Danger Zone" using Virtual Wire
+
+Generating simulated threats to observe firewall behavior
+
+Key Activities:
+
+Adjusted the lab-spg Security Profile Group to test different file-blocking actions
+
+Ran ftp-brute.bat to simulate brute-force activity
+
+Executed sh /tg/malware.sh to test malware detection
+
+Observed and reviewed firewall logs to confirm detection and blocking
+
+Takeaways:
+The lab provided practical insight into how Palo Alto firewalls detect and respond to different types of threats based on configured security profiles.
